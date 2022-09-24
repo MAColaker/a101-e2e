@@ -31,7 +31,7 @@ Kadin Corap Siparisi
 * "İlçe" listesinden "KÖRFEZ" değeri seçilir
 * "1" saniye beklenir
 * "Mahalle" listesinden "KARAYAKUPLU MAH" değeri seçilir
-* "Adres" alanına "Martılar Mevkii No 123 " değeri yazılır
+* "Adres" alanına "Martılar Mevkii No: 123" değeri yazılır
 * "Adres Kaydet" objesine tıklanır
 * "Adres Güncelleme Popup" objesi kaybolana kadar beklenir
 * "Kaydet ve Devam Et" objesine tıklanır
