@@ -9,6 +9,7 @@ public class ElementInfo {
     public String getKey() {
         return key;
     }
+
     public void setKey(String key) {
         this.key = key;
     }
@@ -16,6 +17,7 @@ public class ElementInfo {
     public String getValue() {
         return value;
     }
+
     public void setValue(String value) {
         this.value = value;
     }
@@ -23,6 +25,7 @@ public class ElementInfo {
     public String getType() {
         return type;
     }
+
     public void setType(String type) {
         this.type = type;
     }
@@ -30,6 +33,7 @@ public class ElementInfo {
     public int getIndex() {
         return index;
     }
+
     public void setIndex(int index) {
         this.index = index;
     }
