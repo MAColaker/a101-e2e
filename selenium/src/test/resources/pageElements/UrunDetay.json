@@ -1,0 +1,17 @@
+[
+  {
+    "key": "Ürün Başlığı",
+    "value": ".product-name",
+    "type": "css"
+  },
+  {
+    "key": "Seçilen Renk",
+    "value": ".selected-variant-text>span",
+    "type": "css"
+  },
+  {
+    "key": "Sepete Ekle Buton",
+    "value": "button.add-to-basket",
+    "type": "css"
+  }
+]

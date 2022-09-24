@@ -1,0 +1,17 @@
+[
+  {
+    "key": "Popup Sepet",
+    "value": "js-modal-basket",
+    "type": "id"
+  },
+  {
+    "key": "Popup Sepeti Onayla Buton",
+    "value": "a.button.green.block[title='Sepeti Onayla']",
+    "type": "css"
+  },
+  {
+    "key": "Sepeti Onayla Buton",
+    "value": "a.checkout-button[title='Sepeti Onayla']",
+    "type": "css"
+  }
+]

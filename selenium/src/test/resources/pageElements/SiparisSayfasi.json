@@ -1,0 +1,77 @@
+[
+  {
+    "key": "Teslimat Adresi Alanı",
+    "value": ".checkout-addresses",
+    "type": "css"
+  },
+  {
+    "key": "Yeni Adres Oluştur",
+    "value": "a[title='Yeni adres oluştur']",
+    "type": "css"
+  },
+  {
+    "key": "Adres Güncelleme Popup",
+    "value": ".js-address-form",
+    "type": "css"
+  },
+  {
+    "key": "Adres Başlığı",
+    "value": "title",
+    "type": "name"
+  },
+  {
+    "key": "Ad",
+    "value": "first_name",
+    "type": "name"
+  },
+  {
+    "key": "Soyad",
+    "value": "last_name",
+    "type": "name"
+  },
+  {
+    "key": "Cep Telefonu",
+    "value": "phone_number",
+    "type": "name"
+  },
+  {
+    "key": "İl",
+    "value": "city",
+    "type": "name"
+  },
+  {
+    "key": "İlçe",
+    "value": "township",
+    "type": "name"
+  },
+  {
+    "key": "Mahalle",
+    "value": "district",
+    "type": "name"
+  },
+  {
+    "key": "Adres",
+    "value": "line",
+    "type": "name"
+  },
+  {
+    "key": "Adres Kaydet",
+    "value": "//button[@type='button'][contains(text(),'KAYDET')]",
+    "type": "xpath"
+  },
+  {
+    "key": "Kaydet ve Devam Et",
+    "value": "//button[@type='submit'][contains(text(),'Kaydet ve Devam Et')]",
+    "type": "xpath"
+  },
+  {
+    "key": "Ödeme Seçenekleri Ekranı",
+    "value": ".checkout-payment",
+    "type": "css"
+  },
+  {
+    "key": "Masterpass ile Ödeme",
+    "value": "div.payment-area[data-type='masterpass']",
+    "type": "css"
+  }
+]
