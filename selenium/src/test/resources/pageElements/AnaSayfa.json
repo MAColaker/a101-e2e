@@ -1,0 +1,17 @@
+[
+  {
+    "key": "Giyim ve Aksesuar",
+    "value": ".js-navigation-item>a[title^='GİYİM']",
+    "type": "css"
+  },
+  {
+    "key": "COOKIES ONAY",
+    "value": "CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll",
+    "type": "id"
+  },
+  {
+    "key": "Hover Menü Kadın Dizaltı Çorap",
+    "value": "a[title='Dizaltı Çorap']",
+    "type": "css"
+  }
+]

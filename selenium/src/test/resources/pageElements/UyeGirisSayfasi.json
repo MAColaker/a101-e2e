@@ -1,0 +1,22 @@
+[
+  {
+    "key": "Üye Giriş Başlığı",
+    "value": "div.title.login-title",
+    "type": "css"
+  },
+  {
+    "key": "Üye Olmadan Devam Et",
+    "value": "div.auth__form__proceed__wrapper>a",
+    "type": "css"
+  },
+  {
+    "key": "Email",
+    "value": "user_email",
+    "type": "name"
+  },
+  {
+    "key": "Devam Et",
+    "value": "//button[@type='submit'][contains(text(),'DEVAM ET')]",
+    "type": "xpath"
+  }
+]
