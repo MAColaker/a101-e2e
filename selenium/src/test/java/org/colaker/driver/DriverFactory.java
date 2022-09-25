@@ -29,6 +29,7 @@ public class DriverFactory {
                 WebDriverManager.chromedriver().setup();
 
 	            ChromeOptions options = new ChromeOptions();
+                options.addArguments("start-maximized");
 	            if ("Y".equalsIgnoreCase(System.getenv("HEADLESS"))) {
 	                options.addArguments("--headless");
 	                options.addArguments("--disable-gpu");

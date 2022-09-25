@@ -1,0 +1,17 @@
+[
+  {
+    "key": "Renk Siyah",
+    "value": "(//label[contains(text(),'SİYAH')])[1]",
+    "type": "xpath"
+  },
+  {
+    "key": "Aktif Filtre Siyah",
+    "value": "//*[@class='selected-filters-item']/span[contains(text(),'SİYAH')]",
+    "type": "xpath"
+  },
+  {
+    "key": "İlk Ürün",
+    "value": ".product-list-general>li:nth-child(1)",
+    "type": "css"
+  }
+]
