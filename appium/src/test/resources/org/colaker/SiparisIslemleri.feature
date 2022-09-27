@@ -28,12 +28,12 @@ Feature: SiparisIslemleri
     * ad alanına 'Muhammed Ali' değeri yazılır
     * soyad alanına 'Çolaker' değeri yazılır
     * cepTelefonu alanına '5550000505' değeri yazılır
-    * il listesinden 'KOCAELİ' değeri seçilir
+    * il listesinden 'AMASYA' değeri seçilir
     * 1 kere ekranı yukarı kaydır
-    * ilce listesinden 'KÖRFEZ' değeri seçilir
+    * ilce listesinden 'SULUOVA' değeri seçilir
     * 1 kere ekranı yukarı kaydır
-    * mahalle listesinden 'KARAYAKUPLU MAH' değeri seçilir
-    * adres alanına 'martılar mevkii' değeri yazılır
+    * mahalle listesinden 'BİR EYLÜL MAH' değeri seçilir
+    * adres alanına 'Bağlar cad' değeri yazılır
     * adresKaydetBtn objesine tıklanır
     * 1 kere ekranı yukarı kaydır
     * kaydetVeDevamEt objesine tıklanır

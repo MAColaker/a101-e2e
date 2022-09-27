@@ -13,8 +13,8 @@ import org.openqa.selenium.Dimension;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.FluentWait;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.io.File;
 import java.lang.reflect.Field;
@@ -35,7 +35,7 @@ public class BaseHelper {
     public static AppiumDriver<MobileElement> driver;
     public static FluentWait<AppiumDriver<MobileElement>> wait;
     protected static Map<String, Field> fieldMap = new HashMap<>();
-    public final Logger logger = LoggerFactory.getLogger(BaseHelper.class);
+    public static final Logger logger = LogManager.getLogger(BaseHelper.class);
     protected WaitHelper waitHelper = new WaitHelper();
 
     @Before
