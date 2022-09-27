@@ -36,5 +36,6 @@ Feature: SiparisIslemleri
     * adres alanına 'Bağlar cad' değeri yazılır
     * adresKaydetBtn objesine tıklanır
     * 1 kere ekranı yukarı kaydır
+    * ilkKargo objesine tıklanır
     * kaydetVeDevamEt objesine tıklanır
     * masterpassIleOdemeAlani objesinin bulunduğu kontrol edilir

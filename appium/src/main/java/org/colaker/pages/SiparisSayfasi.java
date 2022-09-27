@@ -98,7 +98,7 @@ public class SiparisSayfasi {
             "android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View/" +
             "android.view.View[2]/android.view.View/android.view.View[16]/android.view.View/android.view.View/" +
             "android.view.View[2]/android.widget.Spinner");
-    public By mahalle=By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/" +
+    public By mahalle = By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/" +
             "android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/" +
             "android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/" +
             "android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/" +
@@ -123,14 +123,22 @@ public class SiparisSayfasi {
             "android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/" +
             "android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View/" +
             "android.view.View[2]/android.view.View/android.widget.Button");
+    public By ilkKargo = By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/" +
+            "android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/" +
+            "android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/" +
+            "android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/" +
+            "android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup[2]/" +
+            "android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/" +
+            "android.webkit.WebView/android.webkit.WebView/android.view.View[1]/android.view.View/android.view.View[5]/" +
+            "android.view.View[5]/android.widget.ListView/android.view.View[1]/android.view.View/android.widget.RadioButton");
     public By kaydetVeDevamEt = By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/" +
             "android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/" +
             "android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/" +
             "android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/" +
             "android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup[2]/" +
             "android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/" +
-            "android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View/" +
-            "android.view.View[2]/android.view.View/android.widget.Button");
+            "android.webkit.WebView/android.webkit.WebView/android.view.View[1]/android.view.View/android.view.View[5]/" +
+            "android.view.View[5]/android.widget.Button");
     public By masterpassIleOdemeAlani = By.xpath("/hierarchy/android.widget.FrameLayout/" +
             "android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/" +
             "android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/" +
