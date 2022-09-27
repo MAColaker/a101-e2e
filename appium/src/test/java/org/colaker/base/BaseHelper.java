@@ -30,7 +30,7 @@ import static java.time.Duration.ofMillis;
 import static java.time.Duration.ofSeconds;
 
 public class BaseHelper {
-    private static final String PAGES_DIRECTORY_PATH = "/org/colaker/pages";
+    private static final String PAGES_DIRECTORY_PATH = "org/colaker/pages";
     private static final String PAGES_PACKAGE_NAME = "org.colaker.pages.";
     public static AppiumDriver<MobileElement> driver;
     public static FluentWait<AppiumDriver<MobileElement>> wait;
@@ -54,10 +54,10 @@ public class BaseHelper {
         URL url = new URL("http://127.0.0.1:4723/wd/hub");
         driver = new AppiumDriver<>(url, capabilities);
 
-        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         wait = new FluentWait<>(driver);
         wait.withTimeout(ofSeconds(30))
-                .pollingEvery(Duration.ofMillis(5000))
+                .pollingEvery(Duration.ofMillis(1000))
                 .ignoring(NoSuchElementException.class);
 
         initFileList(getFileList());
